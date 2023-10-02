@@ -21,7 +21,7 @@ If false, then this customer details instance is created as an anonymous trackin
 
 ## 3. What are the requirements for connecting the application into the FOLIO ecosystem natively?
 
-Following the fundamental documentation guidelines:
+###The main course of action would be to follow the fundamental documentation guidelines:
 
 Actively participate/query in forums (issue tracker, Slack chat..) [Reference the concise list](https://dev.folio.org/community/#collaboration-tools) 
 
