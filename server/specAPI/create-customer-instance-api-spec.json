@@ -1,7 +1,6 @@
 
-
 {
-  "apiObjective": "Create details instance and UUID for customer",
+  "apiObjective": "Create details instance and UUID for customer, whether known or unknown (anonymous)",
   "exampleRequest": {
     "method": "POST",
     "url": "/api/v1/customers",
@@ -20,7 +19,7 @@
       "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAA... (base64-encoded JPEG data)",
       "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAA... (base64-encoded JPEG data)"
     ],
-    "isKnown": true
+    "isKnown": false
    }
   },
 
@@ -32,7 +31,7 @@
       "id": "54321",
       "attributes": {
          "uuId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-         "isKnown": true
+         "isKnown": false
       }
     },
    "links": {
