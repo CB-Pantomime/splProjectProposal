@@ -1,4 +1,6 @@
 # splProjectProposal
+Overview: Project proposal to create an application to serve as a Security Incident Report (SIR) for staff
+to manage and track incidents in the organization. 
 
 ## Server Folder Items
 ### backendFeatureRequirements.md 
