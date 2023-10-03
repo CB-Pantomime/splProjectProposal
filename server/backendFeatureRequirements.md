@@ -29,6 +29,8 @@ Understand that the key server-side element is Okapi. It is the FOLIO middleware
 
 Individual back-end modules are in separate repositories, named in the convention of "mod-*name*". 
 
+Utilize JSON:API format in APIs. 
+
 [Reference the backend infrastructure repositories](https://dev.folio.org/source-code/map/#backend-infrastructure) 
 
 Adhere to FOLIO Guidelines for Contributing Code
