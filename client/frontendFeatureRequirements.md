@@ -5,7 +5,7 @@
 
 ## Features required in UI:
 ### Records Management
--People, property and vehicle tracking. See all of a record details
+People, property and vehicle tracking. See all of a record details
 at a glance along with their history time-line. 
 
 ### Reporting
@@ -20,8 +20,7 @@ Sub-locations
 ### Reference
 Image storage and reference. Images of incident(s) captured by staff and uploaded. Images associated with customers/users stored in the db/referenced in the report. 
 
-Please see: 
-/wireFrames/wireFrames.md
+## Please see: /wireFrames/wireFrames.md
 
 ## 2. Some details on fitting React application within the FOLIO application style:
 
