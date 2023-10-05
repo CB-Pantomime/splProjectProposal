@@ -1,6 +1,9 @@
 
 {
-  "apiObjective": "Create details instance and UUID for customer, whether known or unknown (anonymous)",
+  "apiObjective": "Create details instance and UUID for customer, whether known or unknown (anonymous). 
+  In this example we are instantiating an unknown/anonymous customer with the isKnown attribute key referencing
+  the Boolean value of false while providing any other pertinent and knowable details. A known customer would be
+  instantiated with the key value of isKnown: true and their other details.",
   "exampleRequest": {
     "method": "POST",
     "url": "/api/v1/customers",
