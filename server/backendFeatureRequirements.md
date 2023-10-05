@@ -21,7 +21,7 @@ If false, then this customer details instance is created as an anonymous trackin
 
 ## 3. What are the requirements for connecting the application into the FOLIO ecosystem natively?
 
-### The main course of action would be to follow the fundamental documentation guidelines:
+### The main course of action would be to follow the FOLIO fundamental documentation guidelines, here are some of the many important highlights:
 
 Actively participate/query in forums (issue tracker, Slack chat..) [Reference the concise list](https://dev.folio.org/community/#collaboration-tools) 
 
@@ -29,7 +29,10 @@ Understand that the key server-side element is Okapi. It is the FOLIO middleware
 
 Individual back-end modules are in separate repositories, named in the convention of "mod-*name*". 
 
-Utilize JSON:API format in APIs. 
+Utilize JSON:API format in APIs. (JSON API is de facto standard for defining REST JSON interfaces within FOLIO).
+[FOLIO here](https://dev.folio.org/guidelines/naming-conventions/)
+
+[JSON:API Docs here](https://jsonapi.org/)
 
 [Reference the backend infrastructure repositories](https://dev.folio.org/source-code/map/#backend-infrastructure) 
 
