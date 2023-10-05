@@ -1,9 +1,6 @@
 
 {
-  "apiObjective": "Create details instance and UUID for customer, whether known or unknown (anonymous). 
-  In this example we are instantiating an unknown/anonymous customer with the isKnown attribute key referencing
-  the Boolean value of false while providing any other pertinent and knowable details. A known customer would be
-  instantiated with the key value of isKnown: true and their other details.",
+  "apiObjective": "Create details instance and UUID for customer, whether known or unknown (anonymous). In this example, we are instantiating an unknown/anonymous customer with the isKnown attribute key referencing the Boolean value of false while providing any other pertinent and knowable details. A known customer would be instantiated with the key value of isKnown: true and their other details.",
   "exampleRequest": {
     "method": "POST",
     "url": "/api/v1/customers",
@@ -11,19 +8,19 @@
       "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
       "Content-Type": "application/json"
     },
-   "data": {
-    "nameFirst": "Example First Name if available",
-    "nameLast": "Example Last Name if available",
-    "description": "Description provided",
-    "initialLocation": "Location/branch of first encounter",
-    "initialSubLocation": "Sub location of first encounter",
-    "dateOfEncounter": "MM/DD/YYYY",
-    "imageData": [
-      "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAA... (base64-encoded JPEG data)",
-      "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAA... (base64-encoded JPEG data)"
-    ],
-    "isKnown": false
-   }
+    "data": {
+      "nameFirst": "Example First Name if available",
+      "nameLast": "Example Last Name if available",
+      "description": "Description provided",
+      "initialLocation": "Location/branch of first encounter",
+      "initialSubLocation": "Sub location of first encounter",
+      "dateOfEncounter": "MM/DD/YYYY",
+      "imageData": [
+        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAA... (base64-encoded JPEG data)",
+        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAA... (base64-encoded JPEG data)"
+      ],
+      "isKnown": false
+    }
   },
 
 
@@ -33,12 +30,12 @@
       "type": "customers",
       "id": "54321",
       "attributes": {
-         "uuId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-         "isKnown": false
+        "uuId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+        "isKnown": false
       }
     },
-   "links": {
-    "self": "/api/v1/customers/54321"
-   }
+    "links": {
+      "self": "/api/v1/customers/54321"
+    }
   }
 }
